@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!-- verbose indicates the level of information --> -->
+<suite name="Test Suite" verbose="2" parallel ="methods" thread-count="2">
+<test name="Test Cases">
+ <parameter name="Name" value="Duck"></parameter>
+<!-- <groups>
+	<run>
+		<include name="moto"></include>
+		<include name="vivo"></include>
+		<exclude name=""></exclude>
+	</run>
+</groups> -->
+<classes>
+<class name="testNG.ParameterizationExample"></class>
+<!-- <class name="testNG.GroupingExample"></class> -->
+<!-- <class name="testNG.DependancyMangement"/>
+<class name="testNG.DependancyMangement"/>
+<class name="testNG.DependancyMangement"/>
+<class name="testNG.DependancyMangement"/> -->
+</classes>
+</test>
+</suite>
